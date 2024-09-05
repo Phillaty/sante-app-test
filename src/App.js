@@ -56,7 +56,7 @@ function App() {
         }
       </div>
 
-      {isAnagram && firstPhrase && secondPhrase && firstPhrase !== secondPhrase && <img className='confete' src={confete} alt="confete" key={Date.now()} />}
+      {isAnagram && firstPhrase && secondPhrase && firstPhrase !== secondPhrase && <img className='confete' src={confete} alt="confete" />}
     </div>
   );
 }
