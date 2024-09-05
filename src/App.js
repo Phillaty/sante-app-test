@@ -51,7 +51,7 @@ function App() {
 
         {firstPhrase && secondPhrase && firstPhrase === secondPhrase &&
           <>
-            É mesma palavra! :o
+            <p>É mesma palavra! :o</p>
           </>
         }
       </div>
